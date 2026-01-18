@@ -1,5 +1,7 @@
 <#
 Suspicious Connection Monitor (Beginner Friendly)
+My Personal Cybersecurity Scripts
+Author: Jestkent and AI
 
 What this script does:
 - Reads current network connections on your Windows machine
