@@ -1,4 +1,6 @@
 <#
+# Copyright (c) 2023 Your Name. All rights reserved.
+
 Suspicious Connection Monitor (Beginner Friendly)
 My Personal Cybersecurity Scripts
 What this script does:
@@ -18,7 +20,7 @@ Why this is useful in cybersecurity:
 - Remote tools and backdoors may use unusual ports
 - A quick visibility tool helps you spot “what is my machine talking to right now?”
 #>
-
+#
 # -----------------------------
 # 1) Beginner "suspicious ports" list
 # -----------------------------
@@ -28,6 +30,9 @@ Why this is useful in cybersecurity:
 # - botnet command channels (historically)
 # - IRC related traffic (older, still seen sometimes)
 # - unusual proxies or dev tunnels
+
+
+
 #
 # You can edit this list later as you learn.
 $suspiciousPorts = @(4444, 1337, 6667, 31337, 5555, 9001, 8081, 2222)
